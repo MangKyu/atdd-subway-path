@@ -65,4 +65,8 @@ public class Line {
     public int getDistance() {
         return sections.getDistance();
     }
+
+    public List<Section> getSections() {
+        return sections.getSections();
+    }
 }
